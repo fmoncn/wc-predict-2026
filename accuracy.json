@@ -1,1 +1,42 @@
-{}
+{
+  "updated": "2026-07-13",
+  "note": "Results-only mode — no prediction files exist for knockout rounds. Tracking actual match outcomes only.",
+  "total_matches_tracked": 1,
+  "total_predictions_made": 0,
+  "exact_score": { "hit": 0, "total": 0, "rate": null },
+  "match_result": { "hit": 0, "total": 0, "rate": null },
+  "over_under": { "hit": 0, "total": 0, "rate": null },
+  "btts": { "hit": 0, "total": 0, "rate": null },
+  "asian_handicap": { "hit": 0, "total": 0, "rate": null },
+  "confidence_calibration": {
+    "high": { "hit": 0, "total": 0 },
+    "medium": { "hit": 0, "total": 0 },
+    "low": { "hit": 0, "total": 0 }
+  },
+  "daily_records": [
+    {
+      "date": "2026-07-12",
+      "matches": 1,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "matches_detail": [
+        {
+          "match": "Argentina vs Switzerland (QF)",
+          "score_90min": "1-1",
+          "score_ft_aet": "3-1",
+          "result": "Argentina W (AET)",
+          "total_goals_90min": 2,
+          "total_goals_aet": 4,
+          "ou25_90min": "UNDER",
+          "ou25_aet": "OVER",
+          "btts": true,
+          "red_cards": 1,
+          "went_to_et": true,
+          "notes": "Embolo RC 72' (SUI). SUI levelled at 67' before red card. ARG won with Alvarez thunderbolt 112' + Martinez 120+1'."
+        }
+      ]
+    }
+  ]
+}
