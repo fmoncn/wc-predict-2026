@@ -1,17 +1,46 @@
 {
-  "updated": "2026-07-13",
-  "note": "Results-only mode — no prediction files exist for knockout rounds. Tracking actual match outcomes only.",
-  "total_matches_tracked": 1,
+  "updated": "2026-07-17",
+  "note": "Results-only mode \u2014 no prediction files exist for knockout rounds. Tracking actual match outcomes only.",
+  "total_matches_tracked": 4,
   "total_predictions_made": 0,
-  "exact_score": { "hit": 0, "total": 0, "rate": null },
-  "match_result": { "hit": 0, "total": 0, "rate": null },
-  "over_under": { "hit": 0, "total": 0, "rate": null },
-  "btts": { "hit": 0, "total": 0, "rate": null },
-  "asian_handicap": { "hit": 0, "total": 0, "rate": null },
+  "exact_score": {
+    "hit": 0,
+    "total": 0,
+    "rate": null
+  },
+  "match_result": {
+    "hit": 0,
+    "total": 0,
+    "rate": null
+  },
+  "over_under": {
+    "hit": 0,
+    "total": 0,
+    "rate": null
+  },
+  "btts": {
+    "hit": 0,
+    "total": 0,
+    "rate": null
+  },
+  "asian_handicap": {
+    "hit": 0,
+    "total": 0,
+    "rate": null
+  },
   "confidence_calibration": {
-    "high": { "hit": 0, "total": 0 },
-    "medium": { "hit": 0, "total": 0 },
-    "low": { "hit": 0, "total": 0 }
+    "high": {
+      "hit": 0,
+      "total": 0
+    },
+    "medium": {
+      "hit": 0,
+      "total": 0
+    },
+    "low": {
+      "hit": 0,
+      "total": 0
+    }
   },
   "daily_records": [
     {
@@ -37,6 +66,96 @@
           "notes": "Embolo RC 72' (SUI). SUI levelled at 67' before red card. ARG won with Alvarez thunderbolt 112' + Martinez 120+1'."
         }
       ]
+    },
+    {
+      "date": "2026-07-14",
+      "matches": 1,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "matches_detail": [
+        {
+          "match": "France vs Spain (SF)",
+          "score_90min": "0-2",
+          "score_ft": "0-2",
+          "result": "Spain W",
+          "total_goals": 2,
+          "ou25": "UNDER",
+          "btts": false,
+          "red_cards": 0,
+          "went_to_et": false,
+          "venue": "AT&T Stadium, Dallas",
+          "goalscorers": [
+            {
+              "player": "Oyarzabal",
+              "team": "Spain",
+              "minute": 22,
+              "type": "penalty"
+            },
+            {
+              "player": "Porro",
+              "team": "Spain",
+              "minute": 58,
+              "type": "open play"
+            }
+          ],
+          "notes": "Spain dominated defensively. France allowed only 0.3 xG from 10 shots. Spain's 7th match, conceding total of 1 goal across tournament. Penalty won by Yamal, fouled by Digne. Porro scored give-and-go with Olmo."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "matches": 1,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "matches_detail": [
+        {
+          "match": "England vs Argentina (SF)",
+          "score_90min": "1-2",
+          "score_ft": "1-2",
+          "result": "Argentina W",
+          "total_goals": 3,
+          "ou25": "OVER",
+          "btts": true,
+          "red_cards": 0,
+          "went_to_et": false,
+          "venue": "Mercedes-Benz Stadium, Atlanta",
+          "goalscorers": [
+            {
+              "player": "Anthony Gordon",
+              "team": "England",
+              "minute": 55,
+              "type": "open play"
+            },
+            {
+              "player": "Enzo Fernandez",
+              "team": "Argentina",
+              "minute": 85,
+              "type": "long range"
+            },
+            {
+              "player": "Lautaro Martinez",
+              "team": "Argentina",
+              "minute": 90,
+              "type": "header",
+              "assist": "Messi"
+            }
+          ],
+          "notes": "England led 1-0 from 55'-84'. Argentina scored twice in final 6 minutes. Mac Allister hit post, Messi crossed for Martinez header. Classic Argentina late comeback. No ET needed."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "matches": 0,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "notes": "Rest day \u2014 no matches scheduled between semi-finals (Jul 14-15) and Bronze Final (Jul 18)"
     }
   ]
 }
