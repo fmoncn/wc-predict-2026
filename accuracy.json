@@ -1,48 +1,79 @@
 {
-  "updated": "2026-07-17",
-  "note": "Results-only mode \u2014 no prediction files exist for knockout rounds. Tracking actual match outcomes only.",
-  "total_matches_tracked": 4,
-  "total_predictions_made": 0,
+  "updated": "2026-07-26",
+  "note": "Prediction data from group stage (2026-06-16 only). Knockout rounds tracked in results-only mode — no prediction files were filed.",
+  "total_matches_with_predictions": 8,
+  "total_matches_tracked": 12,
   "exact_score": {
-    "hit": 0,
-    "total": 0,
-    "rate": null
+    "hit": 1,
+    "total": 8,
+    "rate": 0.125
   },
   "match_result": {
-    "hit": 0,
-    "total": 0,
-    "rate": null
+    "hit": 6,
+    "total": 8,
+    "rate": 0.75
   },
   "over_under": {
-    "hit": 0,
-    "total": 0,
-    "rate": null
+    "hit": 4,
+    "total": 8,
+    "rate": 0.5
   },
   "btts": {
-    "hit": 0,
-    "total": 0,
-    "rate": null
+    "hit": 3,
+    "total": 8,
+    "rate": 0.375
   },
   "asian_handicap": {
-    "hit": 0,
-    "total": 0,
-    "rate": null
+    "hit": 6,
+    "total": 7,
+    "rate": 0.857
   },
   "confidence_calibration": {
     "high": {
-      "hit": 0,
-      "total": 0
+      "hit": 5,
+      "total": 6,
+      "rate": 0.833,
+      "note": "Portugal 3-0 (high confidence) was worst miss — actual 1-1 DR Congo"
     },
     "medium": {
-      "hit": 0,
-      "total": 0
+      "hit": 1,
+      "total": 1,
+      "rate": 1.0
     },
     "low": {
       "hit": 0,
-      "total": 0
+      "total": 1,
+      "rate": 0.0
     }
   },
+  "shutout_predictions": {
+    "predicted": 5,
+    "correct": 1,
+    "rate": 0.2,
+    "note": "Critical failure area — avoid predicting shutouts vs World Cup underdogs/debutants"
+  },
   "daily_records": [
+    {
+      "date": "2026-06-16",
+      "matches": 8,
+      "prediction_exists": true,
+      "exact_hits": 1,
+      "result_hits": 6,
+      "ou_hits": 4,
+      "btts_hits": 3,
+      "handicap_hits": 6,
+      "handicap_total": 7,
+      "matches_detail": [
+        {"match": "France vs Senegal", "predicted": "3-1", "actual": "3-1", "result_hit": true, "ou_hit": true, "btts_hit": true, "exact_hit": true},
+        {"match": "Iraq vs Norway", "predicted": "0-3 (Norway)", "actual": "Norway 4-1 Iraq", "result_hit": true, "ou_hit": true, "btts_hit": false, "exact_hit": false},
+        {"match": "Argentina vs Algeria", "predicted": "2-0", "actual": "3-0", "result_hit": true, "ou_hit": false, "btts_hit": true, "exact_hit": false},
+        {"match": "Austria vs Jordan", "predicted": "3-0", "actual": "3-1", "result_hit": true, "ou_hit": true, "btts_hit": false, "exact_hit": false},
+        {"match": "Portugal vs DR Congo", "predicted": "3-0", "actual": "1-1", "result_hit": false, "ou_hit": false, "btts_hit": false, "exact_hit": false},
+        {"match": "England vs Croatia", "predicted": "2-1", "actual": "4-2", "result_hit": true, "ou_hit": false, "btts_hit": true, "exact_hit": false},
+        {"match": "Ghana vs Panama", "predicted": "1-1", "actual": "1-0 Ghana", "result_hit": false, "ou_hit": true, "btts_hit": false, "exact_hit": false},
+        {"match": "Uzbekistan vs Colombia", "predicted": "0-2 (Colombia)", "actual": "Colombia 3-1", "result_hit": true, "ou_hit": false, "btts_hit": false, "exact_hit": false}
+      ]
+    },
     {
       "date": "2026-07-12",
       "matches": 1,
@@ -87,20 +118,10 @@
           "went_to_et": false,
           "venue": "AT&T Stadium, Dallas",
           "goalscorers": [
-            {
-              "player": "Oyarzabal",
-              "team": "Spain",
-              "minute": 22,
-              "type": "penalty"
-            },
-            {
-              "player": "Porro",
-              "team": "Spain",
-              "minute": 58,
-              "type": "open play"
-            }
+            {"player": "Oyarzabal", "team": "Spain", "minute": 22, "type": "penalty"},
+            {"player": "Porro", "team": "Spain", "minute": 58, "type": "open play"}
           ],
-          "notes": "Spain dominated defensively. France allowed only 0.3 xG from 10 shots. Spain's 7th match, conceding total of 1 goal across tournament. Penalty won by Yamal, fouled by Digne. Porro scored give-and-go with Olmo."
+          "notes": "Spain dominated defensively. France allowed only 0.3 xG from 10 shots. Spain's 7th match, conceding total of 1 goal across tournament."
         }
       ]
     },
@@ -124,27 +145,11 @@
           "went_to_et": false,
           "venue": "Mercedes-Benz Stadium, Atlanta",
           "goalscorers": [
-            {
-              "player": "Anthony Gordon",
-              "team": "England",
-              "minute": 55,
-              "type": "open play"
-            },
-            {
-              "player": "Enzo Fernandez",
-              "team": "Argentina",
-              "minute": 85,
-              "type": "long range"
-            },
-            {
-              "player": "Lautaro Martinez",
-              "team": "Argentina",
-              "minute": 90,
-              "type": "header",
-              "assist": "Messi"
-            }
+            {"player": "Anthony Gordon", "team": "England", "minute": 55, "type": "open play"},
+            {"player": "Enzo Fernandez", "team": "Argentina", "minute": 85, "type": "long range"},
+            {"player": "Lautaro Martinez", "team": "Argentina", "minute": 90, "type": "header", "assist": "Messi"}
           ],
-          "notes": "England led 1-0 from 55'-84'. Argentina scored twice in final 6 minutes. Mac Allister hit post, Messi crossed for Martinez header. Classic Argentina late comeback. No ET needed."
+          "notes": "England led 1-0 from 55'-84'. Argentina scored twice in final 6 minutes. Classic Argentina late comeback."
         }
       ]
     },
@@ -155,7 +160,7 @@
       "result_hits": null,
       "ou_hits": null,
       "btts_hits": null,
-      "notes": "Rest day \u2014 no matches scheduled between semi-finals (Jul 14-15) and Bronze Final (Jul 18)"
+      "notes": "Rest day — no matches scheduled between semi-finals (Jul 14-15) and Bronze Final (Jul 18)"
     }
   ]
 }

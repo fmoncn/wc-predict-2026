@@ -1,5 +1,42 @@
 # Calibration Notes — 2026 FIFA World Cup Predictions
 
+## 2026-06-16 Calibration
+*(Retroactive review filed 2026-07-26 — covers predictions/2026-06-16.md, the only group stage prediction file)*
+
+### Bias patterns found
+
+- **Shutout overconfidence**: Predicted 5 clean sheets, only 1 occurred (Argentina vs Algeria). In every other case the "weaker" team scored exactly 1 goal. World Cup underdogs and debutants routinely find one goal through set pieces, counter-attacks, or late pressure. Shutout prediction rate was 1/5 = 20%.
+
+- **Underdog scoring at debut**: All 3 World Cup first-timers (Iraq, Jordan, Uzbekistan) scored exactly 1 goal each despite facing significantly stronger opponents. Debutant motivation + set piece danger = always expect at least 1 goal. Do not predict shutouts against tournament debutants.
+
+- **O/U Under bias on "comfortable" wins**: Predicted Under 2.5 for Argentina (2 goals), England (3 goals total), and Colombia (2 goals) — all were wrong. A dominant team winning 3-0, 4-2, or 3-1 is NOT a low-scoring game. "Controlled" does not mean "low-goal." Contradiction check: if predicted score implies 3+ goals, O/U pick must be Over 2.5.
+
+- **Handicap overreach on strong favorites**: Portugal -2.5 was rated 3-star confidence when the analysis itself flagged DR Congo's defensive strength (0.56 goals allowed per game). The -2.5 line requires a 3-goal margin — a high bar for any World Cup match. High favorite win probability (~77%) does NOT imply -2.5 handicap confidence.
+
+- **Portugal World Cup opener effect ignored**: Portugal in first World Cup matches historically shows restraint. CR7 at 41 creates tactical complications. This known risk was flagged in analysis but not reflected in confidence level.
+
+- **Goal ceiling underestimation for dominant teams**: Norway scored 4 (predicted 3), England scored 4 (predicted 2), Colombia scored 3 (predicted 2). When predicting favorite wins, the upside goal count tends to exceed "reasonable" estimates.
+
+- **BTTS base rate underestimated**: Predicted BTTS No in 5 matches; only 1 was correct (Argentina). Group stage BTTS = Yes occurred in 5/8 matches (~62%). Default prior should be BTTS Yes, not No.
+
+### Adjustments for next prediction
+
+- **Never predict shutout vs World Cup debutant or significant underdog.** Default BTTS = Yes for any match where the weaker team has legitimately qualified.
+
+- **Contradiction check for O/U**: If predicted score implies ≥3 total goals, O/U pick must be Over 2.5. Do not predict Under when predicted score is 3-0.
+
+- **Cap handicap confidence**: Max -1.5 as default ceiling. Only push to -2 or beyond when the weaker team has demonstrably porous defense AND the favorite has been consistently scoring 4+.
+
+- **World Cup opener conservatism for top-10 favorites**: Reduce O/U and handicap aggressiveness for their first match vs organized lower-ranked opposition.
+
+- **BTTS default in group stage**: Prior = Yes (~60%). Only flip to No when facing top-5 defensive unit or confirmed non-scoring opponent.
+
+---
+
+*Filed retroactively 2026-07-26. First automated prediction review in this repository.*
+
+---
+
 ## 2026-07-12 Calibration
 
 ### Match: Argentina 3–1 Switzerland (QF, AET)
