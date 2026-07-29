@@ -110,3 +110,46 @@
 ---
 
 *Updated: 2026-07-17. Semifinal results reviewed.*
+
+---
+
+## 2026-07-28 Calibration — End of Tournament Summary
+*(Review run on 2026-07-29 — no matches on 2026-07-28; final was 2026-07-19)*
+
+### Final tournament results logged (Jul 18–19)
+
+**Bronze Final (Jul 18): France 4–6 England**
+- 10 goals total — most in a WC game since 1982
+- England led 4-0 at half; France fought to 4-4 before England scored twice late
+- Jul 17 calibration note recommended caution on Under picks for bronze matches — this validated
+
+**World Cup Final (Jul 19): Spain 1–0 Argentina (AET)**
+- Ferran Torres 106' the only goal
+- Emiliano Martínez 11 saves — WC final record; Argentina had 2 total shots
+- **Jul 17 pre-match analysis was correct**: predicted Spain 1-0 / Under 2.5 / No BTTS / Spain AHC
+
+### Bias patterns found
+
+- **Final-stage defensive consolidation confirmed**: The Final had just 1 goal across 120 minutes — Under 2.5 for knockout finals is the correct lean, especially when one side (Spain, 1 goal conceded in 7 matches) has elite defensive metrics.
+
+- **Bronze match is an outlier exception**: The bronze final (France 4-6 England) produced 10 goals — the exact opposite of the final. Bronze matches historically feature both teams "loose" after semifinal eliminations. The defensive caution that governs group stage and knock-out predictions breaks down entirely in 3rd-place games.
+
+- **Spain's xGA as signal was fully vindicated**: Across the tournament Spain conceded only 2 goals in 8 matches (1 in regular play + Torres 106'). The Jul 12 and Jul 17 calibration notes both flagged Spain's xGA as an extreme outlier to be weighted heavily. This was the single most reliable predictor in the tournament.
+
+- **Argentina "late comeback" pattern didn't appear in the final**: Argentina's late-goal trait (identified Jul 12, confirmed Jul 15) did not materialize against Spain's organized defense. The pattern held only in high-scoring open games (Switzerland QF, England SF); against a defensive wall it broke.
+
+- **No prediction files across entire knockout stage**: From group stage (Jun 16) to tournament end (Jul 19), zero prediction files were filed for knockout rounds. This is a major workflow gap — even one prediction per match day would have validated/tested the calibration notes.
+
+### Adjustments for next tournament
+
+- **Bronze final = Over 2.5 default**: Price 3rd-place matches as open, attacking games. Both teams have nothing to lose; BTTS Yes and Over 2.5 are reasonable defaults.
+
+- **Final = Under 2.5 / No BTTS lean**: High-stakes finals compress goal totals. Historically only ~30% of WC finals have 3+ goals. Default to Under unless both finalists have high xG in knockout stage.
+
+- **Build knockout predictions from in-tournament stats, not pre-tournament odds**: Spain's tournament performance (1 goal conceded across group + R32 + R16 + QF + SF) was far more predictive than pre-tournament odds. Always run a "tournament-form reset" before each knockout prediction.
+
+- **Establish prediction workflow for knockout stage**: Set up automated prediction file generation at least 12 hours before each knockout match, not just group stage.
+
+---
+
+*Updated: 2026-07-29. End of 2026 World Cup — Spain champion. Tournament tracking complete.*

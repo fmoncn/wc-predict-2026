@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-26",
-  "note": "Prediction data from group stage (2026-06-16 only). Knockout rounds tracked in results-only mode — no prediction files were filed.",
+  "updated": "2026-07-29",
+  "note": "Prediction data from group stage (2026-06-16 only). Knockout rounds tracked in results-only mode — no prediction files were filed. Tournament ended July 19 (Spain beat Argentina 1-0 AET in final).",
   "total_matches_with_predictions": 8,
-  "total_matches_tracked": 12,
+  "total_matches_tracked": 14,
   "exact_score": {
     "hit": 1,
     "total": 8,
@@ -161,6 +161,64 @@
       "ou_hits": null,
       "btts_hits": null,
       "notes": "Rest day — no matches scheduled between semi-finals (Jul 14-15) and Bronze Final (Jul 18)"
+    },
+    {
+      "date": "2026-07-18",
+      "matches": 1,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "matches_detail": [
+        {
+          "match": "France vs England (Bronze Final)",
+          "score_ft": "4-6",
+          "result": "England W (3rd place)",
+          "total_goals": 10,
+          "ou25": "OVER",
+          "btts": true,
+          "red_cards": 0,
+          "went_to_et": false,
+          "venue": "Hard Rock Stadium, Miami",
+          "notes": "Most goals in a World Cup game since 1982. England 4-0 at half, France fought back to 4-4, England scored twice late. Mbappe scored in consolation — his brace made him France's all-time leading WC scorer. England finished 3rd."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "matches": 1,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "matches_detail": [
+        {
+          "match": "Spain vs Argentina (FINAL)",
+          "score_90min": "0-0",
+          "score_ft_aet": "1-0",
+          "result": "Spain W — 2026 World Cup Champions",
+          "total_goals": 1,
+          "ou25_90min": "UNDER",
+          "ou25_aet": "UNDER",
+          "btts": false,
+          "red_cards": 0,
+          "went_to_et": true,
+          "venue": "MetLife Stadium, East Rutherford NJ",
+          "goalscorers": [
+            {"player": "Ferran Torres", "team": "Spain", "minute": 106, "type": "open play"}
+          ],
+          "notes": "Spain's 2nd World Cup title (also 2010). Emiliano Martinez made 11 saves — WC final record. Argentina had only 2 shots, neither on target. Spain had 20 shots. Calibration note: Jul 17 pre-match analysis correctly predicted Spain 1-0 / Under 2.5 / No BTTS / Spain AHC — these were the right calls."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "matches": 0,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "notes": "Scheduled review run — no matches on this date. World Cup concluded 2026-07-19."
     }
   ]
 }
