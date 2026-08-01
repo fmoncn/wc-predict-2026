@@ -219,6 +219,15 @@
       "ou_hits": null,
       "btts_hits": null,
       "notes": "Scheduled review run — no matches on this date. World Cup concluded 2026-07-19."
+    },
+    {
+      "date": "2026-07-31",
+      "matches": 0,
+      "prediction_exists": false,
+      "result_hits": null,
+      "ou_hits": null,
+      "btts_hits": null,
+      "notes": "Scheduled review run — no matches on this date. World Cup concluded 2026-07-19. No new calibration data."
     }
   ]
 }
